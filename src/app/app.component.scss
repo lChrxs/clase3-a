@@ -1,0 +1,40 @@
+:host { // Para que los estilos solo se apliquen al componente
+
+  div {
+    width: 100vw;
+    height: 400px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // h1 {
+    //   width: 120vw;
+    // }
+    form {
+      margin: auto;
+      width: 200px;
+
+      label {
+        display: block;
+        width: fit-content;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+        margin-left: 12px;
+        position: relative;
+        background-color: white;
+      }
+
+      input {
+        all: unset;
+        border: 1px solid black;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 10px;
+        border-radius: 3px;
+        font-weight: bold;
+      }
+    }
+  }
+
+}
